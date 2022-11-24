@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="firstname">
+        <p class="firstnameerror"></p>
+        <input type="email" name="email">
+        <p class="emailerror"></p>
+    </form>
+    <p class="demo" onclick="f1()">
+        hhh
+    </p>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+
+$('input').on('blur',function(){
+
+    if(this.value == "")
+    {
+        var error = '.'+$(this).next('p').attr('class');
+        $(error).html($(this).attr('name')+" "+"is empty");
+    }
+    else
+    {
+        var error = '.'+$(this).next('p').attr('class');
+        $(error).html("");
+    }
+});
+ 
+</script>
+</html>

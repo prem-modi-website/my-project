@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v3.1.1
       with:
         ftp-server: ftp.thebestbeta.com
-        ftp-username: admin@thebestbeta.com
+        ftp-username: prem@thebestbeta.com
         ftp-password: ${{ secrets.prod_FTP_PASSWORD }}

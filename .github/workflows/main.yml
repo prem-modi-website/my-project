@@ -1,0 +1,19 @@
+on: 
+  push:
+    branches:
+      - master
+name: Publish Website
+jobs:
+  FTP-Deploy-Action:
+    name: my-project
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+          fetch-depth: 2
+    - name: my-project
+      uses: SamKirkland/FTP-Deploy-Action@v3.1.1
+      with:
+        ftp-server: ftp.thebestbeta.com
+        ftp-username: admin@thebestbeta.com
+        ftp-password: ${{ secrets.prod_FTP_PASSWORD }}

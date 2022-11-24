@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Oauth extends Model
+class TxtResult extends Model
 {
     use HasFactory;
     public $connection = "dnsdb";
-    public $table = "oauth";
+    public $table = "txtresult";
 }

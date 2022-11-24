@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DemoController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,12 +14,3 @@ use App\Http\Controllers\DemoController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('view',[DemoController::class,'index']);
-Route::get('get-data',[DemoController::class,'getData'])->name('getData');
-
-
-Route::get('auth',[DemoController::class,'authGoogle'])->name('googleLogin');
-
-Route::get('auth/google/callback',[DemoController::class,'authGoogledata'])->name('authGoogledata');
-

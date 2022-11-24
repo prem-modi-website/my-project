@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Atmos Admin Panel- Bootstrap 4 Based Admin Panel</title>
+    <link rel="icon" type="image/x-icon" href="{{ url('assets/img/logo.png')}}"/>
+    <link rel="icon" href="{{ url('assets/img/logo.png')}}" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="{{('css/vendor/pace/pace.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('css/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('css/vendor/jquery-scrollbar/jquery.scrollbar.css') }}">
+    <link rel="stylesheet" href="{{ url('css/vendor/select2/css/select2.min.css')}}">
+    <link rel="stylesheet" href="{{ url('css/vendor/jquery-ui/jquery-ui.min.css')}}">
+    <link rel="stylesheet" href="{{ url('css/vendor/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="{{ url('css/vendor/timepicker/bootstrap-timepicker.min.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url('css/vendor/fonts/jost/jost.css')}}">
+    <!--Material Icons-->
+    <link rel="stylesheet" type="text/css" href="{{ url('css/vendor/fonts/materialdesignicons/materialdesignicons.min.css')}}">
+     <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="{{ url('assets/css/atmos.min.css')}}">
+    <!-- Additional library for page -->
+    
+</head>
+<body>
+</body>
+</html>
